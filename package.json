@@ -1,0 +1,16 @@
+{
+  "name": "ansel-challenge",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -u bdd -r test/setup test/spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4",
+    "simple-stacktrace": "^0.2.1"
+  }
+}
